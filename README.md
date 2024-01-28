@@ -7,16 +7,16 @@ I started by drafting an ERD (Entity-Relationship Diagram) to visually represent
 ## Data Engineering
 1.	Database Creation: Established the "EmployeeSQL" database to house the relevant tables.
 2.	Table Creation Using QuickDBD:
--•	Ensured correctness of column names, data types, and appropriate assignment of primary and foreign keys.
--•	Maintained dependencies between tables.
+ - 	Ensured correctness of column names, data types, and appropriate assignment of primary and foreign keys.
+ - 	Maintained dependencies between tables.
 3.	CSV Data Import:
--•	Imported CSV files into respective tables in the following order:
--•	Departments
--•	Titles
--•	Employees
--•	Dept_manager
--•	Dept_emp
--•	Salaries
+ - Imported CSV files into respective tables in the following order:
+ - Departments
+ - Titles
+ - Employees
+ - Dept_manager
+ - Dept_emp
+ - Salaries
 ## Data Analysis Queries
 Utilised SQL queries to answer key questions about the employee data. Refer to [DataAnalysis_queries.sql] for the complete set of queries.
 
